@@ -76,3 +76,6 @@ curl --location 'https://bitespeed-5j9l.onrender.com/identify' \
     "phoneNumber":"123456789"
 }'
 ```
+
+If request is taking too much time initally, render has probably spun down the instance as it was idle for a long time. If any other issue is suspected, please leave a comment on any commit.
+Thank you!
